@@ -1,0 +1,38 @@
+.login {
+    width: 100%;
+    height: 100vh;
+}
+
+.contentLogin {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formLogin {
+    width: 400px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow:  20px 20px 60px #c5c5c5,
+             -20px -20px 60px #ffffff;
+    border-radius: 20px;
+}
+
+.formLogin form {
+    width: 80%;
+}
+
+.humanTitle {
+    color: #C0392B;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+.responsError {
+    color: #C0392B;
+}

@@ -1,0 +1,42 @@
+.login {
+    width: 100%;
+    height: 100vh;
+}
+
+.contentCandidato {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formLogin {
+    width: 600px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow:  20px 20px 60px #c5c5c5,
+             -20px -20px 60px #ffffff;
+    border-radius: 20px;
+}
+
+.formLogin form {
+    width: 80%;
+}
+
+.formLogin input {
+    margin: 20px 0;
+}
+
+.humanTitle {
+    color: #C0392B;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.responsError {
+    color: #C0392B;
+}
